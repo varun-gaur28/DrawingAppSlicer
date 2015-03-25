@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Users\The Game Machine\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\880Project\DrawingToolSlicer\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-cb40b4696a2677616eb9c1528a787b9074d33ad8.jar" />
+    </item>
+    <item
+        jar="E:\Project880\DrawingToolSlicer\app\libs\dropbox-sync-sdk-android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27c6a602b8af65c4bd4741af2be12686d561d02c">
+        <dex dex="E:\Project880\DrawingToolSlicer\app\build\intermediates\pre-dexed\debug\dropbox-sync-sdk-android-1086c3aef5d33da466afb4427986d098cdab56e1.jar" />
+    </item>
+    <item
+        jar="D:\880Project\DrawingToolSlicer\app\libs\dropbox-sync-sdk-android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27c6a602b8af65c4bd4741af2be12686d561d02c">
+        <dex dex="D:\880Project\DrawingToolSlicer\app\build\intermediates\pre-dexed\debug\dropbox-sync-sdk-android-dd9ae36cb5e4e4cabc8f2644144f7118c290b3c7.jar" />
+    </item>
+
+</items>
