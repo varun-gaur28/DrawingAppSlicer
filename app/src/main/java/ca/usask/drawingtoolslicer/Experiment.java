@@ -22,6 +22,7 @@ public class Experiment extends Observable implements TouchEventHandler {
 
 	protected FastTapMenu fastTapMenu1;
     protected FastTapMenu fastTapMenu2;
+    protected FastTapMenu fastTapMenu3;
     protected ArrayList<FastTapMenu> fTM;
 	protected SliceLayer sliceLayer;
 

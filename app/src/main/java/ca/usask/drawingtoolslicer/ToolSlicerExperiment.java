@@ -16,10 +16,12 @@ public class ToolSlicerExperiment extends Experiment {
 	public ToolSlicerExperiment(long randomSeed, int curTrial, Context c) {
 		super(randomSeed, curTrial);
         fTM = new ArrayList<FastTapMenu>();
-		fastTapMenu1 = new DrawingToolFastTapMenu(c);
-        fastTapMenu2 = new DrawingToolFastTapMenu1(c);
+		fastTapMenu1 = new DrawingToolFastTapMenu1(c);
+        fastTapMenu2 = new DrawingToolFastTapMenu2(c);
+        fastTapMenu3 = new DrawingToolFastTapMenu3(c);
         fTM.add(fastTapMenu1);
         fTM.add(fastTapMenu2);
+        fTM.add(fastTapMenu3);
         sliceLayer = new SliceLayer();
 		
 		final Random random = new Random(randomSeed);

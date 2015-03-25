@@ -119,25 +119,6 @@ public class FastTapMenu extends Observable implements OnLayoutChangeListener, T
                 }
             }
         }
-        MenuItem m;
-        /*for (int i = 0; i < menuItems.length; i++) {
-            m = menuItems[i];
-            if(m!=null) {
-                if ((i == 20) || (i == 21)) {
-                    m.draw1(canvas, menuItems);
-                } else {
-                    m.draw(canvas);
-                }
-            }
-		}*/
-		/*for (int i = 0; i < menuItems.length; i++) {
-            m = menuItems[i];
-            if(m!=null) {
-                if (this.menuOpen || m.flashTimeRemaining > 0 || m == menuButton) {
-                    m.draw(canvas);
-                }
-            }
-		}*/
 
 		// draw the grid lines
 		mPaint.setColor(0x44666666);
@@ -361,10 +342,13 @@ public class FastTapMenu extends Observable implements OnLayoutChangeListener, T
         public void draw1(Canvas canvas, MenuItem[] m){
             String tabName="";
             if(m.length==21){
-                tabName = "Office Apps";
+                tabName = "Office";
             }
             if(m.length==22){
                 tabName = "Games";
+            }
+            if(m.length==23){
+                tabName = "Colors";
             }
             if (this.flashTimeRemaining > 0 || this.active) {
                 mPaint.setColor(FLASH_COLOR);

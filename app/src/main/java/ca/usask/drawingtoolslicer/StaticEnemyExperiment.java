@@ -22,8 +22,10 @@ public class StaticEnemyExperiment extends Experiment {
 
 		fastTapMenu1 = new ColorFastTapMenu(c);
         fastTapMenu2 = new ColorFastTapMenu(c);
+		fastTapMenu3 = new ColorFastTapMenu(c);
         fTM.add(fastTapMenu1);
         fTM.add(fastTapMenu2);
+		fTM.add(fastTapMenu3);
 		sliceLayer = new SliceLayer();
 		
 		final Random random = new Random(randomSeed);

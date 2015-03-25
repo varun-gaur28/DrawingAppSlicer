@@ -34,29 +34,53 @@ public class ToolItem {
 	public static final ToolItem Voice = new ToolItem("Voice", R.drawable.voice);
 	public static final ToolItem Youtube = new ToolItem("Youtube", R.drawable.youtube);
 
-    public static final ToolItem Adsense = new ToolItem("Adsense", R.drawable.adsense);
-	public static final ToolItem Authenticator = new ToolItem("Authenticator", R.drawable.authenticator);
-	public static final ToolItem Books = new ToolItem("Books", R.drawable.books);
-	public static final ToolItem Catalogs = new ToolItem("Catalogs", R.drawable.catalogs);
-    public static final ToolItem Cities = new ToolItem("Cities", R.drawable.cities);
+    public static final ToolItem Pool = new ToolItem("8 Ball Pool", R.drawable.pool);
+	public static final ToolItem AngryBird = new ToolItem("Angry Bird", R.drawable.angrybird);
+	public static final ToolItem AssasinsCreed = new ToolItem("Assasins Creed", R.drawable.assassinscreed);
+	public static final ToolItem CallOfDuty = new ToolItem("Call of Duty", R.drawable.callofduty);
+    public static final ToolItem CandyCrush = new ToolItem("Candy Crush", R.drawable.candycrush);
 
-    public static final ToolItem CloudPrint = new ToolItem("CloudPrint", R.drawable.cloudprint);
-    public static final ToolItem Coordinate = new ToolItem("Coordinate", R.drawable.coordinate);
-    public static final ToolItem Dictionary = new ToolItem("Dictionary", R.drawable.dictionary);
-    public static final ToolItem Directions = new ToolItem("Directions", R.drawable.directions);
-    public static final ToolItem Drawings = new ToolItem("Drawings", R.drawable.drawings);
+    public static final ToolItem CounterStrike = new ToolItem("Counter Strike", R.drawable.counterstrike);
+    public static final ToolItem DeadTrigger = new ToolItem("Dead Trigger 2", R.drawable.deadtrigger);
+    public static final ToolItem Fifa = new ToolItem("Fifa 15", R.drawable.fifa15);
+    public static final ToolItem FreeFlow = new ToolItem("Free Flow", R.drawable.freeflow);
+    public static final ToolItem GTA = new ToolItem("GTA IV", R.drawable.gta4);
 
-    public static final ToolItem Ebooks = new ToolItem("Ebooks", R.drawable.ebooks);
-    public static final ToolItem Fonts = new ToolItem("Fonts", R.drawable.fonts);
-    public static final ToolItem Igoogle = new ToolItem("Igoogle", R.drawable.igoogle);
-    public static final ToolItem Images = new ToolItem("Images", R.drawable.images);
-    public static final ToolItem MapImagery = new ToolItem("MapImagery", R.drawable.imagery);
+    public static final ToolItem GTAVC = new ToolItem("GTA Vice City", R.drawable.gtavicecity);
+    public static final ToolItem Mario = new ToolItem("Mario", R.drawable.mario);
+    public static final ToolItem Minecraft = new ToolItem("Minecraft", R.drawable.minecraft);
+    public static final ToolItem NFS = new ToolItem("Need for Speed", R.drawable.needforspeed);
+    public static final ToolItem FruitNinja = new ToolItem("Fruit Ninja", R.drawable.fruitninja);
 
-    public static final ToolItem Presentations = new ToolItem("Presentations", R.drawable.presentations);
-    public static final ToolItem QnA = new ToolItem("QnA", R.drawable.qna);
-    public static final ToolItem Research = new ToolItem("Research", R.drawable.research);
-    public static final ToolItem Scholar = new ToolItem("Scholar", R.drawable.scholar);
-    public static final ToolItem ScratchPad = new ToolItem("ScratchPad", R.drawable.scratchpad);
+    public static final ToolItem Quake = new ToolItem("Quake III", R.drawable.quake);
+    public static final ToolItem Simcity = new ToolItem("Sim City BuildIt", R.drawable.simcity);
+    public static final ToolItem Sonic = new ToolItem("Sonic", R.drawable.sonic);
+    public static final ToolItem SubwaySurfers = new ToolItem("Subway Surfers", R.drawable.subwaysurfers);
+    public static final ToolItem TempleRun = new ToolItem("Temple Run 2", R.drawable.templerun);
+
+    public static final ToolItem Paintbrush = new ToolItem("Paintbrush", R.drawable.paintbrush);
+    public static final ToolItem Line = new ToolItem("Line", R.drawable.line);
+    public static final ToolItem Circle = new ToolItem("Circle", R.drawable.circle);
+    public static final ToolItem Rectangle = new ToolItem("Rectangle", R.drawable.rectangle);
+    public static final ToolItem Fill = new ToolItem("Fill", R.drawable.fill);
+
+    public static final ToolItem Black = new ToolItem("Black", R.drawable.black);
+    public static final ToolItem Red = new ToolItem("Red", R.drawable.red);
+    public static final ToolItem Green = new ToolItem("Green", R.drawable.green);
+    public static final ToolItem Blue = new ToolItem("Blue", R.drawable.blue);
+    public static final ToolItem ColorPicker = new ToolItem("Color Picker", R.drawable.colorpicker);
+
+    public static final ToolItem White = new ToolItem("White", R.drawable.white);
+    public static final ToolItem Yellow = new ToolItem("Yellow", R.drawable.yellow);
+    public static final ToolItem Cyan = new ToolItem("Cyan", R.drawable.cyan);
+    public static final ToolItem Magenta = new ToolItem("Magenta", R.drawable.magenta);
+    public static final ToolItem CustomColor = new ToolItem("Custom Color", R.drawable.customcolor);
+
+    public static final ToolItem Fine = new ToolItem("Fine", R.drawable.fine);
+    public static final ToolItem Thin = new ToolItem("Thin", R.drawable.thin);
+    public static final ToolItem Medium = new ToolItem("Medium", R.drawable.medium);
+    public static final ToolItem Wide = new ToolItem("Wide", R.drawable.wide);
+    public static final ToolItem Undo = new ToolItem("Undo", R.drawable.undo);
 
     public static ToolItem[] all = {Blogger,
                                     Calendar,
@@ -78,34 +102,58 @@ public class ToolItem {
                                     Videos,
                                     Voice,
                                     Youtube};
-    public static ToolItem[] all1 = {Adsense,
-                                    Authenticator,
-                                    Books,
-                                    Catalogs,
-                                    Cities,
-                                    CloudPrint,
-                                    Coordinate,
-                                    Dictionary,
-                                    Directions,
-                                    Drawings,
-                                    Ebooks,
-                                    Fonts,
-                                    Igoogle,
-                                    Images,
-                                    MapImagery,
-                                    Presentations,
-                                    QnA,
-                                    Research,
-                                    Scholar,
-                                    ScratchPad};
+    public static ToolItem[] all1 = {Pool,
+                                    AngryBird,
+                                    AssasinsCreed,
+                                    CallOfDuty,
+                                    CandyCrush,
+                                    CounterStrike,
+                                    DeadTrigger,
+                                    Fifa,
+                                    FreeFlow,
+                                    GTA,
+                                    GTAVC,
+                                    Mario,
+                                    Minecraft,
+                                    NFS,
+                                    FruitNinja,
+                                    Quake,
+                                    Simcity,
+                                    Sonic,
+                                    SubwaySurfers,
+                                    TempleRun};
 
+    public static ToolItem[] all2 = {Paintbrush,
+                                    Line,
+                                    Circle,
+                                    Rectangle,
+                                    Fill,
+                                    Black,
+                                    Red,
+                                    Green,
+                                    Blue,
+                                    ColorPicker,
+                                    White,
+                                    Yellow,
+                                    Cyan,
+                                    Magenta,
+                                    CustomColor,
+                                    Fine,
+                                    Thin,
+                                    Medium,
+                                    Wide,
+                                    Undo};
 	public static ToolItem[] enemies = {Gmail,
                                         Hubble,
-                                        Contacts,
                                         Maps,
                                         Chrome,
-                                        Authenticator,
-                                        CloudPrint,
-                                        Dictionary};
+                                        DeadTrigger,
+                                        Quake,
+                                        AngryBird,
+                                        TempleRun,
+                                        Black,
+                                        Magenta,
+                                        Thin,
+                                        Rectangle};
 	
 }
