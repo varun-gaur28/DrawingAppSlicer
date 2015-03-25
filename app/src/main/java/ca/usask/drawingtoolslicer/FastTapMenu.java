@@ -318,8 +318,9 @@ public class FastTapMenu extends Observable implements OnLayoutChangeListener, T
             mLabelPaint1 = new Paint();
             mLabelPaint1.setTextAlign(Align.CENTER);
             mLabelPaint1.setColor(0xff000000);
-            mLabelPaint1.setTextSize(40);
+            mLabelPaint1.setTextSize(50);
             mLabelPaint1.setAntiAlias(true);
+
 		}
 
 		public boolean containsPoint(float px, float py) {
@@ -360,7 +361,7 @@ public class FastTapMenu extends Observable implements OnLayoutChangeListener, T
         public void draw1(Canvas canvas, MenuItem[] m){
             String tabName="";
             if(m.length==21){
-                tabName = "Applications";
+                tabName = "Office Apps";
             }
             if(m.length==22){
                 tabName = "Games";
