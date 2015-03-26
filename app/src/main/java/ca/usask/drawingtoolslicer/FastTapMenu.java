@@ -348,7 +348,7 @@ public class FastTapMenu extends Observable implements OnLayoutChangeListener, T
                 tabName = "Games";
             }
             if(m.length==23){
-                tabName = "Colors";
+                tabName = "Paint";
             }
             if (this.flashTimeRemaining > 0 || this.active) {
                 mPaint.setColor(FLASH_COLOR);
