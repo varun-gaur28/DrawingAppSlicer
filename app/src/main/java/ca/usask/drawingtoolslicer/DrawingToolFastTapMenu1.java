@@ -9,9 +9,9 @@ public class DrawingToolFastTapMenu1 extends FastTapMenu {
         this.cols = 5;
         this.rows = 5;
         this.menuButton = new MenuItem(ToolItem.Blogger.name, ToolItem.Blogger.icon);
-        this.menuItems = new MenuItem[ToolItem.all.length+1];
+        this.menuItems = new MenuItem[ToolItem.all1.length+1];
         int i = 0;
-        for (ToolItem ti : ToolItem.all) {
+        for (ToolItem ti : ToolItem.all1) {
             menuItems[i] = new MenuItem(ti.name, ti.icon);
             i += 1;
         }

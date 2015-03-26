@@ -1,11 +1,10 @@
 package ca.usask.drawingtoolslicer;
 
 public class ToolItem {
-
-	public String name;
+   	public String name;
 	public int icon;
-	
-	public ToolItem(String name, int icon) {
+
+    public ToolItem(String name, int icon) {
 		this.name = name;
 		this.icon = icon;
 	}
@@ -82,7 +81,7 @@ public class ToolItem {
     public static final ToolItem Wide = new ToolItem("Wide", R.drawable.wide);
     public static final ToolItem Undo = new ToolItem("Undo", R.drawable.undo);
 
-    public static ToolItem[] all = {Blogger,
+    public static ToolItem[] all1 = {Blogger,
                                     Calendar,
                                     Chrome,
                                     Contacts,
@@ -102,7 +101,7 @@ public class ToolItem {
                                     Videos,
                                     Voice,
                                     Youtube};
-    public static ToolItem[] all1 = {Pool,
+    public static ToolItem[] all2 = {Pool,
                                     AngryBird,
                                     AssasinsCreed,
                                     CallOfDuty,
@@ -123,7 +122,7 @@ public class ToolItem {
                                     SubwaySurfers,
                                     TempleRun};
 
-    public static ToolItem[] all2 = {Paintbrush,
+    public static ToolItem[] all3 = {Paintbrush,
                                     Line,
                                     Circle,
                                     Rectangle,
@@ -143,7 +142,20 @@ public class ToolItem {
                                     Medium,
                                     Wide,
                                     Undo};
-	public static ToolItem[] enemies = {Gmail,
+
+    public static ToolItem[] enemies1 = {Gmail,
+                                        Hubble,
+                                        Maps,
+                                        Chrome};
+    public static ToolItem[] enemies2 = {Gmail,
+                                        Hubble,
+                                        Maps,
+                                        Chrome,
+                                        DeadTrigger,
+                                        Quake,
+                                        AngryBird,
+                                        TempleRun};
+    public static ToolItem[] enemies3 = {Gmail,
                                         Hubble,
                                         Maps,
                                         Chrome,
@@ -155,5 +167,4 @@ public class ToolItem {
                                         Magenta,
                                         Thin,
                                         Rectangle};
-	
 }

@@ -10,18 +10,33 @@ import android.graphics.BitmapFactory;
 
 public class ToolSlicerExperiment extends Experiment {
 
-	private float[] speeds = {0.27f, 0.41f, 0.60f}; // In %age screen per second
+	//private float[] speeds = {0.27f, 0.41f, 0.60f}; // In %age screen per second
+    private float[] speeds = {0.17f, 0.27f, 0.37f}; // In %age screen per second
 	private int[] blocks_per_speed = {4, 8, 8}; // Each block includes all 12 enemy types in some permutation
-	
+    private int noOfTabs=3;
+
 	public ToolSlicerExperiment(long randomSeed, int curTrial, Context c) {
 		super(randomSeed, curTrial);
         fTM = new ArrayList<FastTapMenu>();
-		fastTapMenu1 = new DrawingToolFastTapMenu1(c);
-        fastTapMenu2 = new DrawingToolFastTapMenu2(c);
-        fastTapMenu3 = new DrawingToolFastTapMenu3(c);
-        fTM.add(fastTapMenu1);
-        fTM.add(fastTapMenu2);
-        fTM.add(fastTapMenu3);
+		if(noOfTabs==1){
+            fastTapMenu1 = new DrawingToolFastTapMenu1(c);
+            fTM.add(fastTapMenu1);
+        }
+        else if(noOfTabs==2){
+            fastTapMenu1 = new DrawingToolFastTapMenu1(c);
+            fTM.add(fastTapMenu1);
+            fastTapMenu2 = new DrawingToolFastTapMenu2(c);
+            fTM.add(fastTapMenu2);
+        }
+        else if(noOfTabs==3){
+            fastTapMenu1 = new DrawingToolFastTapMenu1(c);
+            fTM.add(fastTapMenu1);
+            fastTapMenu2 = new DrawingToolFastTapMenu2(c);
+            fTM.add(fastTapMenu2);
+            fastTapMenu3 = new DrawingToolFastTapMenu3(c);
+            fTM.add(fastTapMenu3);
+        }
+
         sliceLayer = new SliceLayer();
 		
 		final Random random = new Random(randomSeed);
@@ -59,9 +74,23 @@ public class ToolSlicerExperiment extends Experiment {
 	}
 	
     private ToolItem[] generateBlock(Random random) {
-    	ToolItem[] items = ToolItem.enemies.clone();
-    	Collections.shuffle(Arrays.asList(items), random);
-    	return items;
+        ToolItem[] items = ToolItem.enemies1.clone();
+        if(noOfTabs==1){
+            items = ToolItem.enemies1.clone();
+            Collections.shuffle(Arrays.asList(items), random);
+
+        }
+        else if(noOfTabs==2){
+            items = ToolItem.enemies2.clone();
+            Collections.shuffle(Arrays.asList(items), random);
+
+        }
+        else if(noOfTabs==3){
+            items = ToolItem.enemies3.clone();
+            Collections.shuffle(Arrays.asList(items), random);
+
+        }
+        return items;
     }
 
 }
